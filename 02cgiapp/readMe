@@ -1,0 +1,4 @@
+chmod +x main.py
+python -m CGIHTTPServer 8081
+
+http://127.0.0.1:8081/cgi-bin/main.py?name=jackyops
